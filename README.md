@@ -9,7 +9,7 @@ but importantly it stops at some moment, it's not an endless loop.
 ## Possible extensions
 
 - Crawling running in a separate container, maybe using Celery
-- Logging, metrics, automated tests
+- Logging (Sentry), metrics (Datadog or just StatsD to Prometheus/Grafana), automated tests
 - JS front-end with paging
 - Securing DB
 
