@@ -1,6 +1,8 @@
 alembic
 fastapi
+jinja2
 notebook
 psycopg2-binary
 scrapy
 sqlalchemy
+uvicorn

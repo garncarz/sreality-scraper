@@ -1,0 +1,20 @@
+<h1>Crawled ads</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for ad in ads %}
+        <tr>
+            <td>{{ ad.title }}</td>
+            <td>
+                <img src="{{ ad.image }}" />
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
