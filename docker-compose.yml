@@ -13,3 +13,5 @@ services:
     image: postgres:alpine
     environment:
       - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - 127.0.0.1:5444:5432
