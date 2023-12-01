@@ -1,0 +1,6 @@
+alembic
+fastapi
+notebook
+psycopg2-binary
+scrapy
+sqlalchemy
